@@ -9,3 +9,17 @@ Find the Telegram bot at [@Encouragingcute_bot](https://t.me/Encouragingcute_bot
 ## Demo
 
 <img src="/readme/demo.gif" height="700">
+
+## Commands
+- /boop - Sends a dog photo
+- /floof - Sends a cat photo
+- /pat - Sends a dog photo and a message
+- /scratch - Sends a cat photo and a message 
+- /inspire - Sends an inspiring quote
+- /encourge - Sends an encouragement
+- /jokes - Sends a dad joke
+
+## Technologies used
+- Python
+    - Package python-telegram-bot
+- Hosted on Heroku
