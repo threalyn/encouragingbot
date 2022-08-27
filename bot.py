@@ -8,7 +8,6 @@ PORT = int(os.environ.get('PORT', 5000))
 TOKEN = os.environ.get('BOT_TOKEN')
 
 # Get dog image URL
-# URL will give a json and the URL is under the url tag
 def get_dog_url():
     contents = requests.get('https://random.dog/woof.json').json()
     url = contents['url']
@@ -16,7 +15,6 @@ def get_dog_url():
 
 
 # Get cat image URL
-# json has list indices, URL under index 0
 def get_cat_url():
     contents = requests.get('https://api.thecatapi.com/v1/images/search').json()
     url = contents[0]['url']
@@ -34,7 +32,6 @@ def get_dog_image_url():
 
 
 # Sends a dog photo
-# Change arguments from (bot, update) to (update, context) due to change in handlers
 def boop(update, context):
     url = get_dog_image_url()
     chat_id = update.message.chat_id
@@ -106,7 +103,6 @@ def encourage(update, context):
 
 
 # Tells a dad joke
-# Referenced from https://github.com/chrispinkney/DAD-JOKE-3000/blob/master/dad-joke-3000.py
 def jokes(update, context):
     chat_id = update.message.chat_id
     url = "https://icanhazdadjoke.com/search"
