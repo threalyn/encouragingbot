@@ -4,10 +4,6 @@ import re
 import random
 import os
 
-# Dog image API code referenced from
-# https://www.freecodecamp.org/news/learn-to-build-your-first-bot-in-telegram-with-python-4c99526765e4/
-
-
 PORT = int(os.environ.get('PORT', 5000))
 TOKEN = os.environ.get('BOT_TOKEN')
 
