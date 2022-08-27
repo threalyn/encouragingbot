@@ -4,4 +4,4 @@ Creates a telegram bot that will send cute pet photos, quotes and jokes to the u
 
 Makes use of different API to generate random photos and lines. 
 
-Find the Telegram bot at @Encouragingcute_bot
+Find the Telegram bot at [@Encouragingcute_bot](https://t.me/Encouragingcute_bot)
