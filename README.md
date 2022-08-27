@@ -8,3 +8,4 @@ Find the Telegram bot at [@Encouragingcute_bot](https://t.me/Encouragingcute_bot
 
 ## Demo
 
+<img src="/readme/demo.png" align="center">
