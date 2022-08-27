@@ -1,6 +1,6 @@
-# encouragingbot
+# Encouraging Telegram Bot
 
-Creates a telegram bot that will send cute pet photos, quotes and jokes to the user.  
+A telegram bot that will send cute dog and cat photos, quotes and jokes to the user.  
 
 Makes use of different API to generate random photos and lines. 
 
