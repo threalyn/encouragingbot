@@ -6,7 +6,7 @@ Makes use of different API to generate random photos and quotes.
 
 Find the Telegram bot at [@Encouragingcute_bot](https://t.me/Encouragingcute_bot)
 
-Update December 20222: In the process of redeploying to Replit.
+Update December 2022: In the process of redeploying to Replit.
 
 ## Demo
 
